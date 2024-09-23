@@ -4,13 +4,31 @@ version = "0.1.0"
 description = ""
 authors = ["craftsangjae <craftsangjae@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "agipot" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 pydantic = "^2.9.2"
 pydantic-settings = "^2.5.2"
+openai = "^1.47.0"
+pytest = "^8.3.3"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers --tb=short"
+minversion = "6.0"
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+    "ignore::ImportWarning",
+    "ignore::ResourceWarning",
+]
+markers = ["api", "serial"]
