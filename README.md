@@ -1,8 +1,8 @@
-# AGIPOT
+# JuAI: Crafting My little and cute AI Agent
 
 ## Objectives
 
-AGIPOT is a codebase for a AGI that can do anything for you. 
+JuAI is a repository for a AGI that can do anything for me. This is a experiment for me to learn more about AI and LLMs.
 
 ## Setup
 
