@@ -22,5 +22,7 @@ openai_api_key=sk-proj-******
 ## Related Articles
  - [Prompt Engineering Guide](https://www.promptingguide.ai/) : a guidebook about how to prompt LLMs correctly
  - [How to use StructuredOutputParser with LangChain](https://medium.com/@meta_heuristic/how-to-use-structuredoutputparser-with-langchain-6caaa486830) : a guidebook about how to use StructuredOutputParser with LangChain
+ - [Choosing Between LLM Agent Frameworks](https://medium.com/towards-data-science/choosing-between-llm-agent-frameworks-69019493b259) : a guidebook about how to choose between LLM agent frameworks
+
 
 ## Related Papers
