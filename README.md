@@ -30,3 +30,4 @@ openai_api_key=sk-proj-******
 
 - [12 RAG Pain Points and Proposed Solutions](https://towardsdatascience.com/12-rag-pain-points-and-proposed-solutions-43709939a28c) : a guidebook about the 12 RAG pain points and proposed solutions
 
+- [LangChain Academy](https://github.com/langchain-ai/langchain-academy/tree/main) : a repository for learning LangChain
